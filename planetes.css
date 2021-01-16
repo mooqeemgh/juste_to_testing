@@ -1,0 +1,109 @@
+/* Exercice 1 */
+/* ----------------------------------------------------HEADER---------------------------------------------------------------- */
+
+body{
+	border: thin black solid;
+}
+header{
+ 	display: flex;
+	background-color: black;
+  
+}
+header>h1{
+  color: yellow;
+}
+header>img{
+ 	width:9vw;
+	height: 5rem;
+	position: absolute;
+	left: 88vw;
+}
+/* ----------------------------------------------------MAIN---------------------------------------------------------------- */
+main{
+	display: flex;
+	flex-wrap: wrap;
+}
+main>h2{
+  flex-basis: 100%;
+  margin: 1rem;
+}
+.partie1{
+	flex-basis: 46%;
+	padding: 1rem;
+	margin: 1rem 1rem 1rem 1rem;
+	background-color: lightgrey;
+}
+.partie2{
+	flex-basis: 45%;
+	padding: 1rem;
+	margin: 1rem 0rem 1rem 1rem;
+	background-color: lightgrey;
+}
+.partie3{
+	flex-basis: 100%;
+	padding: 1rem;
+	margin: 1rem 1.5rem 2rem 1rem;
+	background-color: lightgrey;
+}
+.td1{
+	width: 15%;
+}
+.td2 {
+	width: 80%;
+}
+
+table {
+	border: thin solid;
+	border-collapse: collapse;
+}
+
+table,td {
+	border: thin solid black;
+	border-collapse: collapse;
+}
+.tdMots{
+	text-align: center;
+}
+/* ----------------------------------------------------FOOTER---------------------------------------------------------------- */
+footer{
+	background-color: black;
+	color: yellow;
+	padding: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Exercice 2 */
